@@ -141,27 +141,37 @@ function App() {
           </div>
         </div>
 
-        {/* PROFILE IMAGE & CARDS */}
-        <div className="profile-image">
-          <img src={`${import.meta.env.BASE_URL}lakshwani.jpg`} alt="Lakshwani" />
-        </div>
+       {/* PROFILE IMAGE & FLOATING CARDS */}
+<div className="hero-image-wrapper">
+  <div className="profile-image">
+    <img src={`${import.meta.env.BASE_URL}lakshwani.jpg`} alt="Lakshwani" />
+  </div>
 
-        <div className="floating-card card-top">
-          <span className="floating-icon">&lt;/&gt;</span>
-          <div>
-            <strong>Full Stack</strong>
-            <small>Developer</small>
-          </div>
-        </div>
+  <div className="floating-card card-top">
+    <span className="floating-icon">&lt;/&gt;</span>
+    <div>
+      <strong>Full Stack</strong>
+      <small>Developer</small>
+    </div>
+  </div>
 
-        <div className="floating-card card-bottom">
-          <span className="floating-icon">AI</span>
-          <div>
-            <strong>AI / ML</strong>
-            <small>Engineer</small>
-          </div>
-        </div>
-      </section>
+  <div className="floating-card card-bottom">
+    <span className="floating-icon">AI</span>
+    <div>
+      <strong>AI / ML</strong>
+      <small>Engineer</small>
+    </div>
+  </div>
+</div>
+
+{/* RESUME DOWNLOAD BUTTON */}
+<a 
+  href={`${import.meta.env.BASE_URL}resume.pdf`} 
+  download="Lakshwani_Resume.pdf" 
+  className="primary-button"
+>
+  ↓ Download Resume
+</a>
 
       {/* STATS */}
       <section className="stats">
