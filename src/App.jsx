@@ -197,8 +197,7 @@ function App() {
           <div className="profile-card">
 
             <div className="profile-image">
-              <img src="/lakshwani.jpg" />
-              />
+             <img src="/lakshwani-portfolio/lakshwani.jpg" />
             </div>
 
             <div className="floating-card card-top">
