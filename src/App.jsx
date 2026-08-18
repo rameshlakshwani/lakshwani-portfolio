@@ -222,7 +222,7 @@ function App() {
 
             </div>
 
-          </div>
+          </section>
 
         </div>
 
