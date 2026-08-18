@@ -168,9 +168,9 @@ function App() {
 <a 
   href={`${import.meta.env.BASE_URL}resume.pdf`} 
   download="Lakshwani_Resume.pdf" 
-  className="primary-button"
+  className="secondary-button"
 >
-  ↓ Download Resume
+  Download Resume
 </a>
 
       {/* STATS */}
