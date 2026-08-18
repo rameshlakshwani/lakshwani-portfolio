@@ -189,16 +189,12 @@ function App() {
         </div>
 
         {/* PROFILE IMAGE */}
-        <div className="hero-image-section">
-
-          <div className="orbit orbit-one"></div>
-          <div className="orbit orbit-two"></div>
-
-          <div className="profile-card">
-
-            <div className="profile-image">
-             <img src="/lakshwani-portfolio/lakshwani.jpg" />
-            </div>
+        <div className="profile-image">
+  <img 
+    src={`${import.meta.env.BASE_URL}lakshwani.jpg`} 
+    alt="Lakshwani"
+  />
+</div>
 
             <div className="floating-card card-top">
 
