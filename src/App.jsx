@@ -197,9 +197,7 @@ function App() {
           <div className="profile-card">
 
             <div className="profile-image">
-              <img
-                src="public/lakshwani.jpg"
-                alt="Lakshwani Ramesh"
+              <img src="/lakshwani.jpg" />
               />
             </div>
 
