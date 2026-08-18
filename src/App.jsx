@@ -124,7 +124,11 @@ function App() {
             <a href="#projects" className="primary-button">
               Explore My Work <span>→</span>
             </a>
-           <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="secondary-button">
+           <a
+              href="public/resume.pdf"
+              download
+              className="secondary-button"
+            >
               ↓ Download Resume
             </a>
           </div>
